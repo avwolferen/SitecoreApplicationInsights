@@ -7,10 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexVanWolferen.SitecoreApp
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Cloud|Any CPU = Cloud|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30F4C396-57E1-480D-99F9-2839286F1ADA}.Cloud|Any CPU.ActiveCfg = Release|Any CPU
+		{30F4C396-57E1-480D-99F9-2839286F1ADA}.Cloud|Any CPU.Build.0 = Release|Any CPU
 		{30F4C396-57E1-480D-99F9-2839286F1ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{30F4C396-57E1-480D-99F9-2839286F1ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30F4C396-57E1-480D-99F9-2839286F1ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
