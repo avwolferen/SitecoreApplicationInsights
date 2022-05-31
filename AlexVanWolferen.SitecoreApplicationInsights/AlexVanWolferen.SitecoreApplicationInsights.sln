@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{450C
 		nuget.config = nuget.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexVanWolferen.SitecoreApplicationInsights.XConnect", "AlexVanWolferen.SitecoreApplicationInsights.XConnect\AlexVanWolferen.SitecoreApplicationInsights.XConnect.csproj", "{1E42A3D1-A1DE-467B-A30F-A97B7A31277F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Cloud|Any CPU = Cloud|Any CPU
@@ -23,6 +25,12 @@ Global
 		{30F4C396-57E1-480D-99F9-2839286F1ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30F4C396-57E1-480D-99F9-2839286F1ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30F4C396-57E1-480D-99F9-2839286F1ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E42A3D1-A1DE-467B-A30F-A97B7A31277F}.Cloud|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E42A3D1-A1DE-467B-A30F-A97B7A31277F}.Cloud|Any CPU.Build.0 = Debug|Any CPU
+		{1E42A3D1-A1DE-467B-A30F-A97B7A31277F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E42A3D1-A1DE-467B-A30F-A97B7A31277F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E42A3D1-A1DE-467B-A30F-A97B7A31277F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E42A3D1-A1DE-467B-A30F-A97B7A31277F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
