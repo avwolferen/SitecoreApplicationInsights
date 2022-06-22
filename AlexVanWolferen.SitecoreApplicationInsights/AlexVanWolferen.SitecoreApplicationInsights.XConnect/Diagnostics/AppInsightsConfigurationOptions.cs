@@ -22,9 +22,9 @@ namespace AlexVanWolferen.SitecoreApplicationInsights.XConnect.Diagnostics
     {
       Condition.Requires(instrumentationKeyAppSetting, nameof(instrumentationKeyAppSetting)).IsNotNullOrEmpty();
       Condition.Requires(roleNameKeyAppSetting, nameof(roleNameKeyAppSetting)).IsNotNullOrEmpty();
-      Condition.Requires(controlChannelApiKeyAppSetting, nameof(controlChannelApiKeyAppSetting)).IsNotNullOrEmpty();
-      Condition.Requires(liveEndpointAppSetting, nameof(liveEndpointAppSetting)).IsNotNullOrEmpty();
-      Condition.Requires(ingestionEndpointAppSetting, nameof(ingestionEndpointAppSetting)).IsNotNullOrEmpty();
+      Condition.Requires(controlChannelApiKeyAppSetting, nameof(controlChannelApiKeyAppSetting));
+      Condition.Requires(liveEndpointAppSetting, nameof(liveEndpointAppSetting));
+      Condition.Requires(ingestionEndpointAppSetting, nameof(ingestionEndpointAppSetting));
 
       InstrumentationKeyAppSettingKey = instrumentationKeyAppSetting;
       RoleNameAppSettingKey = roleNameKeyAppSetting;
