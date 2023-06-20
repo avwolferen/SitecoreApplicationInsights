@@ -5,6 +5,8 @@ Add the instrumentation key to your App_Data\ConnectionStrings.config
 Add the secure control channel API key to your web.config, obtain this in the Azure Portal by creating an api key for your Application Insights resource with ONLY the 'Authenticate SDK control channel' permissions checked. 
     <add key="appinsights.controlchannelApiKey" value="{INSERT API KEY HERE}" />
 
+
+
 ## Azure config files
 Copy the following files in this project to your siteroot.
 \App_Config\Layers.config
